@@ -1,0 +1,11 @@
+# Copy to .prpilot.yml if you want to keep repository review policy alongside code.
+# The MVP currently reads credentials/model from environment, never from this file.
+approved_labels:
+  - bug
+  - enhancement
+  - documentation
+  - tests
+  - security
+review:
+  minimum_confidence: 0.0
+  max_patch_characters_per_file: 12000
